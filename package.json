@@ -2,6 +2,12 @@
   "name": "from-anywhere",
   "description": "Useful utilities for JS, TS, React, Node, Bun, Next, and more.",
   "main": "build/index.js",
+  "exports": {
+    ".": "./build/index.js",
+    "./openapi-example.json": "./openapi-example.json",
+    "./node": "./build/node/index.js",
+    "./types": "./src/types/index.js"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
@@ -30,6 +36,6 @@
     "pub": "yarn up && npm publish",
     "css": "tailwindcss -o css.css"
   },
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module"
 }
