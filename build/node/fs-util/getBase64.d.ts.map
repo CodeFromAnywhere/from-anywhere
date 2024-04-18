@@ -1,0 +1,1 @@
+{"version":3,"file":"getBase64.d.ts","sourceRoot":"","sources":["../../../src/node/fs-util/getBase64.ts"],"names":[],"mappings":"AAMA;;;;GAIG;AACH,eAAO,MAAM,SAAS,sBACD,MAAM,KACxB,QAAQ;IACT,MAAM,EAAE,MAAM,CAAC;IACf,WAAW,EAAE,MAAM,GAAG,IAAI,CAAC;IAC3B;;OAEG;IACH,QAAQ,EAAE,MAAM,CAAC;CAClB,GAAG,IAAI,CAmBP,CAAC"}

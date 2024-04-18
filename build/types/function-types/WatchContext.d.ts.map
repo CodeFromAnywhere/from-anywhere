@@ -1,0 +1,1 @@
+{"version":3,"file":"WatchContext.d.ts","sourceRoot":"","sources":["../../../src/types/function-types/WatchContext.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,sBAAsB,CAAC;AACvD,OAAO,EAAE,cAAc,EAAE,MAAM,qBAAqB,CAAC;AACrD;;;;GAIG;AACH,MAAM,MAAM,YAAY,GAAG,eAAe,GAAG;IAC3C,SAAS,EAAE,cAAc,CAAC;IAC1B,YAAY,EAAE,MAAM,CAAC;IACrB,SAAS,EAAE,OAAO,CAAC;CACpB,CAAC"}

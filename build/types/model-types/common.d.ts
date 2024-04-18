@@ -1,0 +1,37 @@
+export type Json = string | number | boolean | null | {
+    [key: string]: Json;
+} | Json[];
+export type JsonWithUndefined = undefined | string | number | boolean | null | {
+    [key: string]: JsonWithUndefined;
+} | JsonWithUndefined[];
+export type Email = string;
+export declare function isEmail(email: string): boolean;
+/**
+ * use this for any identifier that's not an Id-type. Usually this is a kebab-case version of a written text, but it can also be a file path, for example.
+ */
+export type Slug = string;
+/**
+ * used for md files. index is the line
+ */
+export type Index = number;
+/**
+ * text can be in multiple formats.
+ * most texts in data are probably just text
+ * but they can also contain markdown
+ * ----
+ * if there is a data model with just a single text and it is clear from the name of the model what it should be, better call it either text or markdown.
+ */
+export type TextString = string;
+/**
+ * a string that is known to contain markdown.
+ */
+export type MarkdownString = string;
+/**
+ * valid url, can be validated
+ */
+export type Url = string;
+/**
+ * country code without +
+ */
+export type PhoneNumber = number;
+//# sourceMappingURL=common.d.ts.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"StandardResponse.d.ts","sourceRoot":"","sources":["../../../src/types/function-types/StandardResponse.ts"],"names":[],"mappings":"AAAA;;EAEE;AACF,MAAM,MAAM,gBAAgB,GAAG;IAC7B,YAAY,EAAE,OAAO,CAAC;IACtB,OAAO,CAAC,EAAE,MAAM,CAAC;IACjB;;;;;OAKG;IACH,WAAW,CAAC,EAAE,MAAM,CAAC;IACrB,oKAAoK;IACpK,QAAQ,CAAC,EAAE,OAAO,CAAC;CACpB,CAAC"}

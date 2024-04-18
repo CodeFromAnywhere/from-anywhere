@@ -1,0 +1,1 @@
+{"version":3,"file":"getOneFolderUpPath.js","sourceRoot":"","sources":["../../../src/node/fs-util/getOneFolderUpPath.ts"],"names":[],"mappings":"AAAA;;GAEG;AAEH,MAAM,CAAC,MAAM,kBAAkB,GAAG,CAAC,UAAkB,EAAE,EAAE;IACvD,MAAM,SAAS,GAAG,UAAU,CAAC,KAAK,CAAC,GAAG,CAAC,CAAC;IACxC,SAAS,CAAC,GAAG,EAAE,CAAC;IAChB,OAAO,SAAS,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC;AAC7B,CAAC,CAAC"}

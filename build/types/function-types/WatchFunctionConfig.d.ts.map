@@ -1,0 +1,1 @@
+{"version":3,"file":"WatchFunctionConfig.d.ts","sourceRoot":"","sources":["../../../src/types/function-types/WatchFunctionConfig.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,qBAAqB,CAAC;AACrD,0DAA0D;AAC1D,MAAM,MAAM,mBAAmB,GAAG;IAChC;;;;;;;;OAQG;IACH,WAAW,CAAC,EAAE,CAAC,SAAS,EAAE,cAAc,EAAE,YAAY,EAAE,MAAM,KAAK,OAAO,CAAC;CAC5E,CAAC"}
