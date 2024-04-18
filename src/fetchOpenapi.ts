@@ -1,5 +1,5 @@
-import { OpenapiDocument } from "schema-types";
 import { fetchWithTimeout } from "./fetchWithTimeout.js";
+import { OpenapiDocument } from "./types/openapi-types.js";
 
 const openapis: { [url: string]: OpenapiDocument } = {};
 

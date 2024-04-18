@@ -1,3 +1,4 @@
+import { objectMapToArray } from "./object-maps.js";
 import {
   HttpMethods,
   OpenapiDocument,
@@ -5,8 +6,7 @@ import {
   OpenapiPathItemObject,
   OpenapiRequestBodyObject,
   OpenapiResponseObject,
-} from "schema-types";
-import { objectMapToArray } from "./object-maps.js";
+} from "./types/openapi-types.js";
 
 /**
  * Turns an openapi document into an array.

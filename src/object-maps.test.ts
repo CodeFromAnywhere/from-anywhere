@@ -1,7 +1,7 @@
-import { OpenapiDocument } from "schema-types";
 import { O } from "./O.js";
 import openapiExample from "from-anywhere/openapi-example.json";
 import { simplifyOpenapi } from "./simplifyOpenapi.js";
+import { OpenapiDocument } from "./types/openapi-types.js";
 
 export const flattenObjectMaps = (monster: O, locatons: any[]) => {
   //

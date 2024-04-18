@@ -1,1 +1,1 @@
-{"version":3,"file":"simplifyOpenapi.d.ts","sourceRoot":"","sources":["../src/simplifyOpenapi.ts"],"names":[],"mappings":"AAAA,OAAO,EAEL,eAAe,EAKhB,MAAM,cAAc,CAAC;AAGtB;;;;;;;;;GASG;AACH,eAAO,MAAM,eAAe,YAAa,eAAe;;;;;;;;;;;;;;;;;;;;;GAgEvD,CAAC"}
+{"version":3,"file":"simplifyOpenapi.d.ts","sourceRoot":"","sources":["../src/simplifyOpenapi.ts"],"names":[],"mappings":"AACA,OAAO,EAEL,eAAe,EAKhB,MAAM,0BAA0B,CAAC;AAElC;;;;;;;;;GASG;AACH,eAAO,MAAM,eAAe,YAAa,eAAe;;;;;;;;;;;;;;;;;;;;;GAgEvD,CAAC"}

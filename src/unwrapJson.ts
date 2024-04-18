@@ -1,5 +1,6 @@
 import { tryParseJson } from "./tryParseJson.js";
-import { Json } from "model-types";
+
+import { Json } from "./types.js";
 
 /** Tries to find JSON in strings in JSON. If it does, parses that JSON and replaces the string with the parsed JSON. */
 export const unwrapJson = (json: Json): Json => {

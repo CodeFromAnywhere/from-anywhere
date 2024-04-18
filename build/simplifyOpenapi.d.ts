@@ -1,4 +1,4 @@
-import { OpenapiDocument } from "schema-types";
+import { OpenapiDocument } from "./types/openapi-types.js";
 /**
  * Turns an openapi document into an array.
  * CURRENTLY DOES NOT SUPPORT REFERENCED DATA!

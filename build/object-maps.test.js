@@ -1,4 +1,4 @@
-import openapiExample from "js-util/openapi-example.json";
+import openapiExample from "from-anywhere/openapi-example.json";
 import { simplifyOpenapi } from "./simplifyOpenapi.js";
 export const flattenObjectMaps = (monster, locatons) => {
     //

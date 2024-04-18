@@ -1,5 +1,3 @@
-/// <reference types="web" />
-/// <reference types="bun-types" />
 /**
  * Sets timeout to 5 minutes by default
  *

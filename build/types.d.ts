@@ -1,3 +1,6 @@
+export type Json = string | number | boolean | null | {
+    [key: string]: Json;
+} | Json[];
 export type KeysOfType<T, U> = {
     [K in keyof T]: T[K] extends U ? K : never;
 }[keyof T];
