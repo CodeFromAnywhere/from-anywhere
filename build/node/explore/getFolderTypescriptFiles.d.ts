@@ -4,5 +4,5 @@
  * Ignored suffix: ".d.ts"
  *
  */
-export declare const getFolderTypescriptFiles: (folderPath: string, includeStats: boolean) => Promise<import("../../types/index.js").TextJson[]>;
+export declare const getFolderTypescriptFiles: (folderPath: string, includeStats: boolean) => Promise<import("../../index.js").TextJson[]>;
 //# sourceMappingURL=getFolderTypescriptFiles.d.ts.map

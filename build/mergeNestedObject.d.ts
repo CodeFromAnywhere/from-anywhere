@@ -1,5 +1,5 @@
 import { NestedPartial } from "./NestedPartial.js";
-import { O } from "./O.js";
+import { O } from "./types/O.js";
 export type IsOptional<T> = T extends undefined ? true : false;
 /**
 

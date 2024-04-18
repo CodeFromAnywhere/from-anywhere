@@ -1,4 +1,4 @@
-import { O } from "./O.js";
+import { O } from "./types/O.js";
 import openapiExample from "from-anywhere/openapi-example.json";
 import { simplifyOpenapi } from "./simplifyOpenapi.js";
 import { OpenapiDocument } from "./types/openapi-types.js";

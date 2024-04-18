@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "module": "esnext",
     "rootDir": "src",
+    "lib": ["ESNext", "ES2015", "DOM", "DOM.Iterable"],
+    "module": "NodeNext",
     "target": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "allowImportingTsExtensions": false,

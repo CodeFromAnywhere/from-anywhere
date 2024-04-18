@@ -25,7 +25,7 @@ export type FunctionContext = {
    * NB: due to indexation problems the type has been removed. It can be casted to the `Context` type, which you can import from:
    *
    * ```ts
-   * import { Context } from "types";
+   * import { Context } from "from-anywhere/types";
    * ```
    *
    */

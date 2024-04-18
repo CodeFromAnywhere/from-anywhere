@@ -1,4 +1,4 @@
-import { O } from "./O.js";
+import { O } from "./types/O.js";
 /**
  * Map an object asynchronously and return the same object with the mapped result in its values
  *

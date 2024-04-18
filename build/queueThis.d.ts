@@ -1,4 +1,4 @@
-import { WithoutPromise } from "./types.js";
+import { WithoutPromise } from "./types/index.js";
 /**
  * Keeps a simple local memory to ensure a function can only run n times concurrently.
  *

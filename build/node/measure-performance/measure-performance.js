@@ -10,7 +10,7 @@ Usage:
 Firstly, make a performance array, and a unique execution id, and start the measurement, like so:
 
 ```ts
-import { generateUniqueId, getNewPerformance, PerformanceItem, cleanupTimer } from "measure-performance";
+import { generateUniqueId, getNewPerformance, PerformanceItem, cleanupTimer } from "from-anywhere/node";
 
 // at the start of your function
 

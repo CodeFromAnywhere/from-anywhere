@@ -1,4 +1,4 @@
-import { O } from "../../O.js";
+import { O } from "../O.js";
 export type StandardPluginContext = {
     /** Automatically provided */
     row?: O;

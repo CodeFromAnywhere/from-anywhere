@@ -1,4 +1,4 @@
-import { O } from "./O.js";
+import { O } from "./types/O.js";
 import { notEmpty } from "./general.js";
 import { getObjectKeysArray } from "./getObjectKeysArray.js";
 import { mergeObjectsArray } from "./mergeObjectsArray.js";

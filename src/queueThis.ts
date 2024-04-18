@@ -1,4 +1,4 @@
-import { WithoutPromise } from "./types.js";
+import { WithoutPromise } from "./types/index.js";
 /** NB: this will be kept in memory as long as it's running in the same process */
 let isRunning: { [name: string]: number } = {};
 

@@ -1,7 +1,7 @@
 import { getObjectKeysArray } from "./getObjectKeysArray.js";
 import { mergeObjectsArray } from "./mergeObjectsArray.js";
 import { NestedPartial } from "./NestedPartial.js";
-import { O } from "./O.js";
+import { O } from "./types/O.js";
 export type IsOptional<T> = T extends undefined ? true : false;
 
 // type X = IsOptional<string|undefined>;
