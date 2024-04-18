@@ -4,9 +4,9 @@
   "main": "build/index.js",
   "exports": {
     ".": "./build/index.js",
-    "./openapi-example.json": "./openapi-example.json",
-    "./node": "./build/node/index.js",
-    "./types": "./src/types/index.js"
+    "./build/node": "./node/index.js",
+    "./build/types": "./src/types/index.js",
+    "./openapi-example.json": "./openapi-example.json"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
