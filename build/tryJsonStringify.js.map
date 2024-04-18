@@ -1,0 +1,1 @@
+{"version":3,"file":"tryJsonStringify.js","sourceRoot":"","sources":["../src/tryJsonStringify.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,gBAAgB,GAAG,CAAC,IAAS,EAAE,EAAE;IAC5C,IAAI,CAAC;QACH,OAAO,IAAI,CAAC,SAAS,CAAC,IAAI,EAAE,IAAI,EAAE,CAAC,CAAC,CAAC;IACvC,CAAC;IAAC,OAAO,CAAC,EAAE,CAAC;QACX,OAAO;IACT,CAAC;AACH,CAAC,CAAC"}

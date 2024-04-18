@@ -1,0 +1,1 @@
+{"version":3,"file":"promisifyValue.js","sourceRoot":"","sources":["../src/promisifyValue.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,CAAC,MAAM,cAAc,GAAG,CAAI,KAAQ,EAAc,EAAE;IACxD,MAAM,OAAO,GAAG,IAAI,OAAO,CAAI,CAAC,OAAO,EAAE,EAAE,CAAC,OAAO,CAAC,KAAK,CAAC,CAAC,CAAC;IAC5D,OAAO,OAAO,CAAC;AACjB,CAAC,CAAC"}

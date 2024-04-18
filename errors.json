@@ -1,0 +1,186 @@
+[
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/array-modifications.ts",
+    "name": "NamedParameters<typeof insertAt>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/array-modifications.ts",
+    "operationRelativePath": "src/array-modifications.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/array-modifications.ts",
+    "name": "NamedParameters<typeof removeIndexFromArray>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/array-modifications.ts",
+    "operationRelativePath": "src/array-modifications.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/array-modifications.ts",
+    "name": "NamedParameters<typeof findLastIndex>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/array-modifications.ts",
+    "operationRelativePath": "src/array-modifications.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/destructureOptionalObject.ts",
+    "name": "NamedParameters<typeof destructureOptionalObject>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/destructureOptionalObject.ts",
+    "operationRelativePath": "src/destructureOptionalObject.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/general.ts",
+    "name": "NamedParameters<typeof makeArray>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/general.ts",
+    "operationRelativePath": "src/general.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/general.ts",
+    "name": "NamedParameters<typeof takeFirst>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/general.ts",
+    "operationRelativePath": "src/general.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/general.ts",
+    "name": "NamedParameters<typeof notEmpty>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/general.ts",
+    "operationRelativePath": "src/general.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/getCurrentDate.ts",
+    "name": "NamedParameters<typeof getCurrentDate>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/getCurrentDate.ts",
+    "operationRelativePath": "src/getCurrentDate.ts",
+    "error": "TypeError: Invalid value used as weak map key"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/mapMany.ts",
+    "name": "NamedParameters<typeof mapItem>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/mapMany.ts",
+    "operationRelativePath": "src/mapMany.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/mergeNestedObject.ts",
+    "name": "IsOptional",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/mergeNestedObject.ts",
+    "operationRelativePath": "src/mergeNestedObject.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/mergeNestedObject.ts",
+    "name": "NamedParameters<typeof mergeNestedObject>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/mergeNestedObject.ts",
+    "operationRelativePath": "src/mergeNestedObject.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/mergeNestedObject.ts",
+    "name": "NamedParameters<typeof setNestedObject>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/mergeNestedObject.ts",
+    "operationRelativePath": "src/mergeNestedObject.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/object-merge.ts",
+    "name": "NamedParameters<typeof mergeObjectParameters>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/object-merge.ts",
+    "operationRelativePath": "src/object-merge.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/object-merge.ts",
+    "name": "NamedParameters<typeof mergeObjects>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/object-merge.ts",
+    "operationRelativePath": "src/object-merge.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/queueThis.ts",
+    "name": "NamedParameters<typeof queueThis>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/queueThis.ts",
+    "operationRelativePath": "src/queueThis.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/removeOptionalKeysFromObject.ts",
+    "name": "NamedParameters<typeof removeOptionalKeysFromObject>",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/removeOptionalKeysFromObject.ts",
+    "operationRelativePath": "src/removeOptionalKeysFromObject.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/types.ts",
+    "name": "RequiredKeys",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/types.ts",
+    "operationRelativePath": "src/types.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/types.ts",
+    "name": "OptionalKeys",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/types.ts",
+    "operationRelativePath": "src/types.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/types.ts",
+    "name": "StringEndsWith",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/types.ts",
+    "operationRelativePath": "src/types.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/types.ts",
+    "name": "Pop",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/types.ts",
+    "operationRelativePath": "src/types.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/types.ts",
+    "name": "Shift",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/types.ts",
+    "operationRelativePath": "src/types.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/types.ts",
+    "name": "WithoutPromise",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/types.ts",
+    "operationRelativePath": "src/types.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  },
+  {
+    "modelName": "SchemaItem",
+    "projectRelativePath": "packages/_actionschema/js-util/src/types.ts",
+    "name": "WithPromise",
+    "absolutePath": "/Users/king/Desktop/github/os/packages/_actionschema/js-util/src/types.ts",
+    "operationRelativePath": "src/types.ts",
+    "error": "TypeError: Cannot read properties of undefined (reading 'getId')"
+  }
+]

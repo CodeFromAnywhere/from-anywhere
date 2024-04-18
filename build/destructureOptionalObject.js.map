@@ -1,0 +1,1 @@
+{"version":3,"file":"destructureOptionalObject.js","sourceRoot":"","sources":["../src/destructureOptionalObject.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;;;;;;GAyBG;AACH,MAAM,CAAC,MAAM,yBAAyB,GAAG,CACvC,MAA4B,EAChB,EAAE;IACd,IAAI,CAAC,MAAM;QAAE,OAAO,EAAgB,CAAC;IACrC,OAAO,MAAM,CAAC;AAChB,CAAC,CAAC"}

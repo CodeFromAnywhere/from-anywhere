@@ -1,0 +1,27 @@
+{
+  "name": "from-anywhere",
+  "description": "Useful utilities for JS, TS, React, Node, Bun, Next, and more.",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/web": "^0.0.111",
+    "bun-types": "latest"
+  },
+  "bin": {
+    "jsUtil": "src/cli.ts"
+  },
+  "dependencies": {
+    "dot-prop": "^8.0.2",
+    "emoji-regex": "^10.3.0"
+  },
+  "scripts": {
+    "test": "node ./build/cli.js",
+    "up": "npm version patch -f",
+    "pub": "yarn up && npm publish",
+    "css": "tailwindcss -o css.css"
+  },
+  "version": "0.0.2",
+  "type": "module"
+}
