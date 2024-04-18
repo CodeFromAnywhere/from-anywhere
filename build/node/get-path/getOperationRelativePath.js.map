@@ -1,0 +1,1 @@
+{"version":3,"file":"getOperationRelativePath.js","sourceRoot":"","sources":["../../../src/node/get-path/getOperationRelativePath.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,CAAC,MAAM,wBAAwB,GAAG,CACtC,YAAoB,EACpB,iBAAyB,EACzB,EAAE;IACF,OAAO,YAAY,CAAC,KAAK,CAAC,iBAAiB,CAAC,MAAM,GAAG,CAAC,CAAC,CAAC;AAC1D,CAAC,CAAC"}

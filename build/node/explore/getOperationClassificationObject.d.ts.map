@@ -1,0 +1,1 @@
+{"version":3,"file":"getOperationClassificationObject.d.ts","sourceRoot":"","sources":["../../../src/node/explore/getOperationClassificationObject.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,uBAAuB,EAAE,MAAM,sBAAsB,CAAC;AAK/D,MAAM,MAAM,6BAA6B,GAAG;IAC1C,CAAC,aAAa,EAAE,MAAM,GAAG,uBAAuB,CAAC;CAClD,CAAC;AAEF,eAAO,MAAM,gCAAgC,QACjC,QAAQ,6BAA6B,CAc9C,CAAC"}

@@ -1,5 +1,5 @@
 // NB: I'm creating circular imports if I start using any k-type things in convert-case, so be careful.
-import { kebabCase } from "../../convert-case/index.js";
+import { kebabCase } from "../../convert-case.js";
 import { TsFunction } from "../function-types/index.js";
 import { TsIndexModelType } from "../model-types/index.js";
 import { TsExport } from "./TsExport.js";

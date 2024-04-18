@@ -1,4 +1,4 @@
-import { kebabCase } from "../../convert-case/index.js";
+import { kebabCase } from "../../convert-case.js";
 import { Frontmatter } from "../matter-types/index.js";
 import { generateId } from "../../generateRandomString.js";
 import { MarkdownModelType } from "../model-types/index.js";

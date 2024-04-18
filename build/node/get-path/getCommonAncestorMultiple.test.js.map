@@ -1,0 +1,1 @@
+{"version":3,"file":"getCommonAncestorMultiple.test.js","sourceRoot":"","sources":["../../../src/node/get-path/getCommonAncestorMultiple.test.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,yBAAyB,EAAE,MAAM,gCAAgC,CAAC;AAC3E,OAAO,CAAC,GAAG,CACT,MAAM,yBAAyB,CAAC;IAC9B,yBAAyB;IACzB,6BAA6B;IAC7B,0BAA0B;CAC3B,CAAC,CACH,CAAC"}

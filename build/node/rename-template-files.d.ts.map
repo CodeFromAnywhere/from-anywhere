@@ -1,0 +1,1 @@
+{"version":3,"file":"rename-template-files.d.ts","sourceRoot":"","sources":["../../src/node/rename-template-files.ts"],"names":[],"mappings":";AASA,eAAO,MAAM,YAAY,WAAY,OAAO,EAAE,UAAU,OAAO,EAAE,YAER,CAAC;AAkB1D,eAAO,MAAM,oBAAoB,aAAc,MAAM,WAQpD,CAAC;AAEF,eAAO,MAAM,0BAA0B,aAAc,MAAM,WAE1D,CAAC;AAEF,eAAO,MAAM,mBAAmB,WAAkB;IAAE,MAAM,EAAE,MAAM,CAAA;CAAE,kBAgBnE,CAAC"}
