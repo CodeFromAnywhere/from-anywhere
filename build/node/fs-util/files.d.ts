@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
-/// <reference types="node" />
-import { Path } from "../../types/markdown-types";
+/// <reference types="node" resolution-mode="require"/>
+import { Path } from "../../types/markdown-types/index.js";
 import { PathLike } from "node:fs";
 /**
  * JSON stringify sensor used to filter out circular deps as per this ticket: https://stackoverflow.com/questions/4816099/chrome-sendrequest-error-typeerror-converting-circular-structure-to-json

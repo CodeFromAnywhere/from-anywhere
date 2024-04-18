@@ -1,4 +1,4 @@
-import { OrmItem } from "../fsorm-types";
+import { OrmItem } from "../fsorm-types/index.js";
 /** Model needed to store schema extractions from typescript.  */
 export interface SchemaItem extends OrmItem {
     /** NB: This property contains an object of definitions! Not a single schema! */

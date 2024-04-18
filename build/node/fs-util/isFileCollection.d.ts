@@ -1,4 +1,4 @@
-/// <reference types="node" />
+/// <reference types="node" resolution-mode="require"/>
 import { Dirent } from "node:fs";
 export declare const getFileCollectionBasename: (absolutePath: string) => string;
 export declare const isFileCollection: (absoluteFilePathA: string, absoluteFilePathB: string) => boolean;

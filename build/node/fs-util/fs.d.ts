@@ -1,4 +1,4 @@
-/// <reference types="node" />
+/// <reference types="node" resolution-mode="require"/>
 import gracefulFs from "node:fs";
 import { PathLike } from "node:fs";
 import { Dirent } from "node:fs";

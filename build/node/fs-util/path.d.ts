@@ -1,4 +1,4 @@
-/// <reference types="node" />
+/// <reference types="node" resolution-mode="require"/>
 import nodePath from "node:path";
 export type { ParsedPath } from "node:path";
 /**

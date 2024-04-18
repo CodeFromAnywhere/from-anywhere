@@ -1,4 +1,4 @@
-import { OrmItem } from "../fsorm-types";
+import { OrmItem } from "../fsorm-types/index.js";
 /**
 Open files for different users
 

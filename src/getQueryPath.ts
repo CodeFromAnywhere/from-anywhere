@@ -1,4 +1,4 @@
-import { ParsedUrlQuery } from "./types/nextjs";
+import { ParsedUrlQuery } from "./types/nextjs.js";
 
 export const getQueryPath = (parsedUrlQuery: ParsedUrlQuery | undefined) => {
   const paths = parsedUrlQuery?.paths;

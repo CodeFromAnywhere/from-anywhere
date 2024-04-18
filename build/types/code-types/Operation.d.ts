@@ -1,8 +1,8 @@
-import { Id } from "../model-types";
+import { Id } from "../model-types/index.js";
 import { OperationClassification } from "./OperationClassification.js";
 import { FolderSummary } from "../FolderSummary.js";
 import { OperationRepositoryInfo } from "./OperationRepositoryInfo.js";
-import { OrmItem } from "../fsorm-types";
+import { OrmItem } from "../fsorm-types/index.js";
 /**
  * filepaths categorized based on the filetype. With king os there are only these filetypes:
  *

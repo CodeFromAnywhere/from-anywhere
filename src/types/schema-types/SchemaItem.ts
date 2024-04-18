@@ -1,5 +1,5 @@
 import { ModelConfig } from "../fsorm-types/index.js";
-import { OrmItem } from "../fsorm-types";
+import { OrmItem } from "../fsorm-types/index.js";
 import { Schema } from "./SimplifiedSchema.js";
 
 /** Model needed to store schema extractions from typescript.  */

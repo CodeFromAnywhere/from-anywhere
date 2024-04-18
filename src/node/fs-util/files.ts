@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-import { Path } from "../../types/markdown-types";
+import { Path } from "../../types/markdown-types/index.js";
 import { fs } from "./fs.js";
 import { PathLike } from "node:fs";
 import { getFolder } from "./js.js";
