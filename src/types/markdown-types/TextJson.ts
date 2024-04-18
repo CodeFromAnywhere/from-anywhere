@@ -1,21 +1,4 @@
-/**
- * Information which can be found by fs.stat
- */
-export type PathStats = {
-  /**
-   * unix time this file was last updated (or for folders: unix time of last modifiation of any file in this folder, recursively)
-   *
-   * TODO: renames also count as updates, I guess. Needs to be clear!
-   */
-  updatedAt: number;
-  /**
-   * unix time this file was created (or for folders: unix time of creation of the first file in this folder)
-   *
-   * TODO: figure out if we can get the creation date of the folder itself?
-   */
-  createdAt: number;
-};
-
+import { PathStats } from "../code-types";
 import { MarkdownParse } from "../marked-types";
 /**
  * TODO: Rename
