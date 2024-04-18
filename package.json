@@ -7,8 +7,13 @@
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
+    "@types/json-schema": "^7.0.15",
+    "@types/react": "^18.2.79",
     "@types/web": "^0.0.111",
     "bun-types": "latest",
+    "gray-matter": "^4.0.3",
+    "hono": "^4.2.5",
+    "json-schema": "^0.4.0",
     "openapi-types": "^12.1.3"
   },
   "bin": {
@@ -25,6 +30,6 @@
     "pub": "yarn up && npm publish",
     "css": "tailwindcss -o css.css"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module"
 }
