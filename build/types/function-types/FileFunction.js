@@ -1,4 +1,3 @@
-export {};
 /**
 `MiracleFunction` for files where the instance is the `projectRelativeFilePath`.
 
@@ -19,6 +18,7 @@ export const moveFile: FileFunction<string> = (
 };
 ```
 */
+export {};
 // export type FileFunction<
 //   TContext = undefined,
 //   TResponse = StandardResponse

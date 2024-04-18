@@ -1,4 +1,4 @@
-import { kebabCase } from "../../convert-case";
+import { kebabCase } from "../../convert-case/index.js";
 import { generateId } from "../../generateRandomString.js";
 /**
  * Tries to parse a date from a string

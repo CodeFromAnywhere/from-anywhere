@@ -1,6 +1,6 @@
-import { Frontmatter } from "../matter-types";
-import { MarkdownModelType } from "../model-types";
-import { Storing } from "../model-types";
+import { Frontmatter } from "../matter-types/index.js";
+import { MarkdownModelType } from "../model-types/index.js";
+import { Storing } from "../model-types/index.js";
 import { MarkdownParse } from "./MarkdownParse.js";
 /**
  * Tries to parse a date from a string

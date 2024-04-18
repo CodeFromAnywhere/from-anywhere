@@ -1,4 +1,4 @@
-import { TsIndexModelType } from "../model-types";
+import { TsIndexModelType } from "../model-types/index.js";
 import { ImportClassification } from "./TypescriptIndex.js";
 /**
  */

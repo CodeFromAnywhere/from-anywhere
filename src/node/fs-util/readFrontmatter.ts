@@ -1,4 +1,4 @@
-import { Frontmatter } from "../../types/matter-types";
+import { Frontmatter } from "../../types/matter-types/index.js";
 import { fs } from "./fs.js";
 import { path } from "./path.js";
 import { readFilePerLine } from "./readFilePerLine.js";

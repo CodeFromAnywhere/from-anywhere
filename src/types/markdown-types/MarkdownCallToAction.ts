@@ -1,5 +1,5 @@
-import { BackendAsset } from "../asset-type";
-import { SlugModelType } from "../model-types";
+import { BackendAsset } from "../asset-type/index.js";
+import { SlugModelType } from "../model-types/index.js";
 
 export interface MarkdownCallToAction extends SlugModelType {
   /**

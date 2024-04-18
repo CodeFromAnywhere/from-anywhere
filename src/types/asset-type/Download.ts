@@ -1,5 +1,5 @@
-import { OrmItem } from "../fsorm-types";
-import { ModelConfig } from "../fsorm-types";
+import { OrmItem } from "../fsorm-types/index.js";
+import { ModelConfig } from "../fsorm-types/index.js";
 /**
  * Model to download a file, file-collection, or folder.
  *

@@ -1,7 +1,7 @@
-import { GroupAuthorizationObject } from "../fsorm-types";
-import { TsIndexModelType } from "../model-types";
-import { Schema } from "../schema-types";
-import { TypeInfo } from "../schema-types";
+import { GroupAuthorizationObject } from "../fsorm-types/index.js";
+import { TsIndexModelType } from "../model-types/index.js";
+import { Schema } from "../schema-types/index.js";
+import { TypeInfo } from "../schema-types/index.js";
 import { DbStorageMethod } from "./DbStorageMethod.js";
 export type TsInterfaceProperties = {
   /**

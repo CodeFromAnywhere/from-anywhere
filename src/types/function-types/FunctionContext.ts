@@ -1,4 +1,4 @@
-import { Storing } from "../model-types";
+import { Storing } from "../model-types/index.js";
 import type { HonoRequest } from "hono";
 import { StandardFunctionConfig } from "./StandardFunctionConfig.js";
 import { StandardContext } from "./StandardContext.js";

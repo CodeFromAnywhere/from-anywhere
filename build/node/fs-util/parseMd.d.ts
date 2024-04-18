@@ -1,5 +1,5 @@
-import { Markdown } from "../../types/markdown-types";
-import { Path } from "../../types/markdown-types";
+import { Markdown } from "../../types/markdown-types/index.js";
+import { Path } from "../../types/markdown-types/index.js";
 /**
  * DEPRECATED: just use `md-to-json-parse`
  *

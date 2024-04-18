@@ -1,5 +1,5 @@
 import { path } from "./path.js";
-import { withoutSubExtensions } from "../../fs-util-js";
+import { withoutSubExtensions } from "../../fs-util-js/index.js";
 import { onlyUnique2 } from "../../general.js";
 export const getFileCollectionBasename = (absolutePath) => withoutSubExtensions(path.parse(absolutePath).base);
 export const isFileCollection = (absoluteFilePathA, absoluteFilePathB) => path.parse(absoluteFilePathA).dir === path.parse(absoluteFilePathB).dir &&

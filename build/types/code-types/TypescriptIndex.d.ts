@@ -1,5 +1,5 @@
-import { TsFunction } from "../function-types";
-import { TsIndexModelType } from "../model-types";
+import { TsFunction } from "../function-types/index.js";
+import { TsIndexModelType } from "../model-types/index.js";
 import { TsExport } from "./TsExport.js";
 import { TsImport } from "./TsImport.js";
 import { TsInterface } from "./TsInterface.js";

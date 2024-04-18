@@ -1,4 +1,4 @@
-import { NestedObject } from "../recursive-types";
+import { NestedObject } from "../recursive-types/index.js";
 import { SimpleTypeDefinition } from "./SimpleTypeDefinition.js";
 /**
  * This is mostly an idea for now, but I feel it could be huge if we work this out. It's an entirely new way of managing my programs in a more type centric way. It could be great.

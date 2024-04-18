@@ -1,9 +1,9 @@
 import { fs } from "./fs.js";
 import { path } from "./path.js";
-import { ChildObject } from "../../types/recursive-types";
-import { generatedFolders } from "../../filename-conventions";
+import { ChildObject } from "../../types/recursive-types/index.js";
+import { generatedFolders } from "../../filename-conventions/index.js";
 import { notEmpty, sum } from "../../general.js";
-import { StandardFunctionConfig } from "../../types/function-types";
+import { StandardFunctionConfig } from "../../types/function-types/index.js";
 /**
  * returns an object with all sizes of all folders and files, recursively
  */

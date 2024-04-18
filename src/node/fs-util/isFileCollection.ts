@@ -1,5 +1,5 @@
 import { path } from "./path.js";
-import { withoutSubExtensions } from "../../fs-util-js";
+import { withoutSubExtensions } from "../../fs-util-js/index.js";
 import { Dirent } from "node:fs";
 import { onlyUnique2 } from "../../general.js";
 export const getFileCollectionBasename = (absolutePath: string) =>

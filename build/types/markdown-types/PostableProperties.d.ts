@@ -1,6 +1,6 @@
-import { Id } from "../model-types";
-import { Slug } from "../model-types";
-import { BackendAsset } from "../asset-type";
+import { Id } from "../model-types/index.js";
+import { Slug } from "../model-types/index.js";
+import { BackendAsset } from "../asset-type/index.js";
 /**
  * `Postable` is not extending a modeltype anymore, it can be attached to any `MarkdownModelType` model
  */

@@ -1,6 +1,6 @@
 import { getObjectKeysArray } from "../../getObjectKeysArray.js";
 import { path } from "./path.js";
-import { mimeTypes } from "../../types/asset-type";
+import { mimeTypes } from "../../types/asset-type/index.js";
 /**
  * Downloads a file and buffers it to a base64 string
  * Promises the base64 or null if something went wrong

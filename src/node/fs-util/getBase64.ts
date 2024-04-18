@@ -1,8 +1,8 @@
 import { isUrl } from "../../isUrl.js";
 import { downloadBase64 } from "./downloadBase64.js";
 import { fs } from "./fs.js";
-import { mimeTypes } from "../../types/asset-type";
-import { getExtension } from "../../fs-util-js";
+import { mimeTypes } from "../../types/asset-type/index.js";
+import { getExtension } from "../../fs-util-js/index.js";
 import { path } from "./path.js";
 /**
  * Get the base64 of a file that is located either absolutely in your server, or remotely on a URL

@@ -1,4 +1,4 @@
-import { ChildObject } from "../../types/recursive-types";
+import { ChildObject } from "../../types/recursive-types/index.js";
 /**
  * returns an object with all sizes of all folders and files, recursively
  */

@@ -1,4 +1,4 @@
-import { possibleSubExtensions } from "../filename-conventions";
+import { possibleSubExtensions } from "../filename-conventions/index.js";
 import { withoutExtension } from "./js.js";
 /**
  * NB: filename must have extension!

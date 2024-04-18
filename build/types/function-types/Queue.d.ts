@@ -1,4 +1,4 @@
-import { OrmItem } from "../fsorm-types";
+import { OrmItem } from "../fsorm-types/index.js";
 /**
 Model for a Queue system so you can execute functions when ram/internet is available
 */

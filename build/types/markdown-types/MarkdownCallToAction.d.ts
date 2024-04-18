@@ -1,5 +1,5 @@
-import { BackendAsset } from "../asset-type";
-import { SlugModelType } from "../model-types";
+import { BackendAsset } from "../asset-type/index.js";
+import { SlugModelType } from "../model-types/index.js";
 export interface MarkdownCallToAction extends SlugModelType {
     /**
      * DESCRIPTION: Absolute queryPath to the CTA. Leave empty for going to the homepage. Empty paths will be omitted on the domains where you are already on that domain... If there's a path, will be omitted on other domains (`MarkdownCallToAction`s with a different hostname)

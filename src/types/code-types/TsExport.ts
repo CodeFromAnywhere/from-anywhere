@@ -1,5 +1,4 @@
-import { Creation } from "../model-types";
-import { TsIndexModelType } from "../model-types";
+import { TsIndexModelType } from "../model-types/index.js";
 /**
  */
 export interface TsExport extends TsIndexModelType {

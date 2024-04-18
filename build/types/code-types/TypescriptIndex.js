@@ -1,5 +1,5 @@
 // NB: I'm creating circular imports if I start using any k-type things in convert-case, so be careful.
-import { kebabCase } from "../../convert-case";
+import { kebabCase } from "../../convert-case/index.js";
 export const typescriptIndexModels = [
     "TsBuildError",
     "TsLintWarning",

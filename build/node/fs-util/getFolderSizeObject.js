@@ -1,6 +1,6 @@
 import { fs } from "./fs.js";
 import { path } from "./path.js";
-import { generatedFolders } from "../../filename-conventions";
+import { generatedFolders } from "../../filename-conventions/index.js";
 import { notEmpty, sum } from "../../general.js";
 /**
  * returns an object with all sizes of all folders and files, recursively

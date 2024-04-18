@@ -1,4 +1,3 @@
-export {};
 /**
 `MiracleFunction` for files where the instance is the `projectRelativeFilePath`.
 
@@ -19,4 +18,5 @@ export const moveFile: FileFunction<string> = (
 };
 ```
 */
+export {};
 //# sourceMappingURL=FileFunction.d.ts.map

@@ -1,6 +1,6 @@
-import { DefaultModelType } from "../model-types";
-import { Id } from "../model-types";
-import { PerformanceItem } from "../../node/measure-performance";
+import { DefaultModelType } from "../model-types/index.js";
+import { Id } from "../model-types/index.js";
+import { PerformanceItem } from "../../node/measure-performance/index.js";
 import { TsFunction } from "./TsFunction.js";
 /**
  * Model for tests, examples, cache, and recent executions of any function

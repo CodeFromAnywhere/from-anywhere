@@ -1,4 +1,4 @@
-import { GroupAuthorizationObject } from "../fsorm-types";
+import { GroupAuthorizationObject } from "../fsorm-types/index.js";
 import { RunEveryPeriodEnum } from "./RunEveryPeriodEnum.js";
 import { Queue } from "./Queue.js";
 import { QueueFunctionConfig } from "./QueueFunctionConfig.js";

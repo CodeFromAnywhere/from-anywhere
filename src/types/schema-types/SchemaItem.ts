@@ -1,4 +1,4 @@
-import { ModelConfig } from "../fsorm-types";
+import { ModelConfig } from "../fsorm-types/index.js";
 import { OrmItem } from "../fsorm-types";
 import { Schema } from "./SimplifiedSchema.js";
 

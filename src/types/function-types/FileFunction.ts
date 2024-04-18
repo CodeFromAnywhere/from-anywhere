@@ -1,4 +1,3 @@
-import { StandardResponse } from "./StandardResponse.js";
 /**
 `MiracleFunction` for files where the instance is the `projectRelativeFilePath`.
 

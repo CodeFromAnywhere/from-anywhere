@@ -1,4 +1,4 @@
-import { Frontmatter } from "../../types/matter-types";
+import { Frontmatter } from "../../types/matter-types/index.js";
 /**
 Attempt to make a hyper efficient way to read frontmatter at the beginning of a file.
 

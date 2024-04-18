@@ -1,5 +1,5 @@
-import { DefaultModelType } from "../../model-types";
-import { SimplifiedSchema } from "../../schema-types";
+import { DefaultModelType } from "../../model-types/index.js";
+import { SimplifiedSchema } from "../../schema-types/index.js";
 /**
  * IDEA: What if we could make a custom db storage method for a typescript file, so you can read and write typescript with the database?
  *

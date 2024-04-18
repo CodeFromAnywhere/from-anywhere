@@ -1,4 +1,4 @@
-import { Frontmatter } from "../matter-types";
+import { Frontmatter } from "../matter-types/index.js";
 import { AnyModelType } from "./any-model.js";
 import { Id } from "./id.js";
 import { CategoryStack } from "./keyValueMarkdown.js";

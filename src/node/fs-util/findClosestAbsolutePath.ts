@@ -1,5 +1,5 @@
 import { fs } from "./fs.js";
-import { getFolderJs } from "../../fs-util-js";
+import { getFolderJs } from "../../fs-util-js/index.js";
 /**
  * Looks if the given path is a file or a folder, and goes a folder up in case it doesn't exist, to find a path that does.
  */

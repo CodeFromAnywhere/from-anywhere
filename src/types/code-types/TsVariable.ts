@@ -1,6 +1,5 @@
-import { Creation } from "../model-types";
-import { TsIndexModelType } from "../model-types";
-import { TypeInfo } from "../schema-types";
+import { TsIndexModelType } from "../model-types/index.js";
+import { TypeInfo } from "../schema-types/index.js";
 /**
  * ---
  * dbStorageMethod: jsonSingle

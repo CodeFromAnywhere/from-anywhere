@@ -1,9 +1,9 @@
-import { CreatedTimeObject } from "../model-types";
-import { Id } from "../model-types";
-import { Language } from "../model-types";
-import { Price } from "../model-types";
-import { Slug } from "../model-types";
-import { UpdatedTimeObject } from "../model-types";
+import { CreatedTimeObject } from "../model-types/index.js";
+import { Id } from "../model-types/index.js";
+import { Language } from "../model-types/index.js";
+import { Price } from "../model-types/index.js";
+import { Slug } from "../model-types/index.js";
+import { UpdatedTimeObject } from "../model-types/index.js";
 import { AuthorizationProperties } from "./AuthorizationProperties.js";
 import { MarkdownCallToAction } from "./MarkdownCallToAction.js";
 import { PostableProperties } from "./PostableProperties.js";

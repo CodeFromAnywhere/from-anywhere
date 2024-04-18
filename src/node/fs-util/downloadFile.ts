@@ -2,10 +2,10 @@ import { fetchWithTimeout } from "../../fetchWithTimeout.js";
 import { getObjectKeysArray } from "../../getObjectKeysArray.js";
 import { runFunctionWithTimeout } from "../../runFunctionWithTimeout.js";
 import { fs } from "./fs.js";
-import { mimeTypes } from "../../types/asset-type";
+import { mimeTypes } from "../../types/asset-type/index.js";
 import { path } from "./path.js";
 import { getFirstAvailableFilename } from "./getFirstAvailableFilename.js";
-import { getExtension } from "../../fs-util-js";
+import { getExtension } from "../../fs-util-js/index.js";
 /**
  * Downloads a file and writes it to a path.
  *

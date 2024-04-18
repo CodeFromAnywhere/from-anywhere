@@ -1,4 +1,4 @@
-import { DefaultModelType } from "../../model-types";
+import { DefaultModelType } from "../../model-types/index.js";
 export interface WeirdTypescriptFile<TFiles extends {
     [fileName: string]: {
         [variableName: string]: {

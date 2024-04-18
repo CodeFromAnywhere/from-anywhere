@@ -1,6 +1,6 @@
-import { GroupAuthorizationObject } from "../fsorm-types";
-import { OrmItem } from "../fsorm-types";
-import { Price } from "../model-types";
+import { GroupAuthorizationObject } from "../fsorm-types/index.js";
+import { OrmItem } from "../fsorm-types/index.js";
+import { Price } from "../model-types/index.js";
 /**
  * NB: keys are made `humanCase` and used in UI, so keep a readable name
  */

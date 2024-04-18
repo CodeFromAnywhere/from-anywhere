@@ -1,4 +1,4 @@
-import { TsIndexModelType } from "../model-types";
+import { TsIndexModelType } from "../model-types/index.js";
 import { FunctionParameter } from "./FunctionParameter.js";
 import { SizeSummary } from "../FolderSummary.js";
 export type TsFunctionIndex = {

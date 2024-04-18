@@ -1,7 +1,7 @@
 // mdToJson function and api
-import { CategoryStack } from "../model-types";
-import { Frontmatter } from "../matter-types";
-import { AssetType } from "../asset-type";
+import { CategoryStack } from "../model-types/index.js";
+import { Frontmatter } from "../matter-types/index.js";
+import { AssetType } from "../asset-type/index.js";
 
 /**
  * Anything in the format `[alt](href)`

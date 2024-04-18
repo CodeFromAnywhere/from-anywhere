@@ -1,1 +1,1 @@
-{"version":3,"file":"parseMd.d.ts","sourceRoot":"","sources":["../../../src/node/fs-util/parseMd.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,4BAA4B,CAAC;AACtD,OAAO,EAAE,IAAI,EAAE,MAAM,4BAA4B,CAAC;AAGlD;;;;;;GAMG;AACH,eAAO,MAAM,OAAO,eAAgB,IAAI,KAAG,QAAQ,GAAG,SAsBrD,CAAC"}
+{"version":3,"file":"parseMd.d.ts","sourceRoot":"","sources":["../../../src/node/fs-util/parseMd.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,qCAAqC,CAAC;AAC/D,OAAO,EAAE,IAAI,EAAE,MAAM,qCAAqC,CAAC;AAG3D;;;;;;GAMG;AACH,eAAO,MAAM,OAAO,eAAgB,IAAI,KAAG,QAAQ,GAAG,SAsBrD,CAAC"}

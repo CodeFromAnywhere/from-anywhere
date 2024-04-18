@@ -1,5 +1,5 @@
-import { PathStats } from "../code-types";
-import { MarkdownParse } from "../marked-types";
+import { PathStats } from "../code-types/index.js";
+import { MarkdownParse } from "../marked-types/index.js";
 /**
  * TODO: Rename
  */

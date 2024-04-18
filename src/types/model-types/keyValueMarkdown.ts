@@ -1,4 +1,4 @@
-import { Frontmatter } from "../matter-types";
+import { Frontmatter } from "../matter-types/index.js";
 import { AnyModelType } from "./any-model.js";
 /**
  * handy model type for storing stuff in a KeyValue Markdown file.
