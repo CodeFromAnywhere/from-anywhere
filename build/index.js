@@ -4,6 +4,7 @@ export * from "./array-modifications.js";
 export * from "./byteCount.js";
 export * from "./createMappedObject.js";
 export * from "./destructureOptionalObject.js";
+export * from "./oneByOne.js";
 export * from "./earthDistance.js";
 export * from "./fetchOpenapi.js";
 export * from "./fetchWithTimeout.js";

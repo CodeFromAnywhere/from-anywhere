@@ -1,0 +1,7 @@
+#!/usr/bin/env bun
+/**
+ * for every item in an array, executes an async callback, one by one.
+ * promises an array of the results of every callback once it's done
+ */
+export declare const oneByOne: <T, U>(array: T[], callback: (instance: T, index: number, resultsSoFar: U[]) => Promise<U>, timeBetweenCallbacksMs?: number) => Promise<U[]>;
+//# sourceMappingURL=oneByOne.d.ts.map
