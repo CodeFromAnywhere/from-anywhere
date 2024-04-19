@@ -20,6 +20,7 @@ JSONSchema7 derivative that has the following capabilities and and characteristi
 - is able to easily generate a form
  */
 export interface SimplifiedSchema {
+  description?: string;
   /**
    * - string
    * - number
