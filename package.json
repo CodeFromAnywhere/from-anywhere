@@ -24,11 +24,11 @@
     "jsUtil": "src/cli.ts"
   },
   "dependencies": {
-    "gray-matter": "^4.0.3",
-    "json-schema": "^0.4.0",
     "dot-prop": "^8.0.2",
     "emoji-regex": "^10.3.0",
-    "js-yaml": "^4.1.0"
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "json-schema": "^0.4.0"
   },
   "scripts": {
     "test": "node ./build/cli.js",
@@ -36,6 +36,6 @@
     "pub": "yarn up && npm publish",
     "css": "tailwindcss -o css.css"
   },
-  "version": "0.0.17",
+  "version": "0.0.18",
   "type": "module"
 }
