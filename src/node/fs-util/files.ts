@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 import { Path } from "../../types/markdown-types/index.js";
 import { fs } from "./fs.js";
 import { PathLike } from "node:fs";
@@ -129,7 +129,7 @@ export const writeJsonToFile = async <T extends unknown>(
   data: T,
 ): Promise<boolean> => {
   if (!data) {
-    console.log({ p, data });
+    console.log("no data", { p, data });
     return false;
   }
   const stringifiedData = tryJsonStringify(data);

@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 import { fs } from "./fs.js";
 import { getFolder } from "./js.js";
 import { tryJsonStringify } from "../../tryJsonStringify.js";
@@ -106,7 +106,7 @@ export const canExecuteSync = (p) => canAccessSync(p, fs.constants.X_OK);
  */
 export const writeJsonToFile = async (p, data) => {
     if (!data) {
-        console.log({ p, data });
+        console.log("no data", { p, data });
         return false;
     }
     const stringifiedData = tryJsonStringify(data);

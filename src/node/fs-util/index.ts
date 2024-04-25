@@ -14,6 +14,7 @@ export * from "./getAllFoldersUntilFolder.js";
 export * from "./getBase64.js";
 export * from "./getFirstAvailableFilename.js";
 export * from "./getFirstFile.js";
+export * from "./getFileFirstLine.js";
 export * from "./getFolderSize.js";
 export * from "./getFolderSizeObject.js";
 export * from "./getOneFolderUpPath.js";

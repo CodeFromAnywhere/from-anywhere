@@ -1,7 +1,7 @@
-import { generateId } from "from-anywhere";
 import { findOperationBasePath } from "./findOperationBasePath.js";
 import { getOperationPathParse } from "./getOperationPathParse.js";
 import { kebabCase } from "../../convert-case.js";
+import { generateId } from "../../generateRandomString.js";
 export const getIndexId = async (filePath, name) => {
     const operationPathParse = getOperationPathParse(filePath);
     if (!operationPathParse)

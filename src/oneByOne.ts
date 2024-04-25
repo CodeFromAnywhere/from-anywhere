@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 
 /**
  * for every item in an array, executes an async callback, one by one.
@@ -7,13 +7,13 @@
 export const oneByOne = async <T, U>(
   array: T[],
   callback: (instance: T, index: number, resultsSoFar: U[]) => Promise<U>,
-  timeBetweenCallbacksMs?: number
+  timeBetweenCallbacksMs?: number,
 ): Promise<U[]> => {
   const getResults = async (
     results: Promise<U[]>,
     instance: T,
     index: number,
-    array: T[]
+    array: T[],
   ) => {
     const awaitedResults = await results;
 
@@ -23,7 +23,7 @@ export const oneByOne = async <T, U>(
       : ((await callback(instance, index, awaitedResults)) as U);
     if (timeBetweenCallbacksMs) {
       await new Promise<void>((resolve) =>
-        setTimeout(() => resolve(), timeBetweenCallbacksMs)
+        setTimeout(() => resolve(), timeBetweenCallbacksMs),
       );
     }
     const newResults = [...awaitedResults, result];
@@ -32,7 +32,7 @@ export const oneByOne = async <T, U>(
 
   const result = await array.reduce(
     getResults,
-    new Promise<U[]>((resolve) => resolve([]))
+    new Promise<U[]>((resolve) => resolve([])),
   );
 
   // NB: here we're solving the fact that it returns promises in case of `timeBetweenCallbackMs`

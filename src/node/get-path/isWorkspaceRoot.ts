@@ -1,7 +1,7 @@
 import path from "node:path";
 import fs from "node:fs";
-import { tryParseJson } from "from-anywhere";
 import { Operation } from "../../types/index.js";
+import { tryParseJson } from "../../tryParseJson.js";
 /**
  * simple sync function to check if a folder is the root of a workspace (not operation but a workspace)
  */

@@ -1,4 +1,4 @@
-import { tryParseJson } from "from-anywhere";
+import { tryParseJson } from "../../tryParseJson.js";
 import { canRead, canReadSync } from "./files.js";
 import fs from "node:fs";
 import fsPromises from "node:fs/promises";

@@ -1,1 +1,1 @@
-{"version":3,"file":"getFilenameTypescriptPath.d.ts","sourceRoot":"","sources":["../../../src/node/get-path/getFilenameTypescriptPath.ts"],"names":[],"mappings":"AACA,eAAO,MAAM,yBAAyB,mBAAoB,MAAM,WAI/D,CAAC"}
+{"version":3,"file":"getFilenameTypescriptPath.d.ts","sourceRoot":"","sources":["../../../src/node/get-path/getFilenameTypescriptPath.ts"],"names":[],"mappings":"AAEA,eAAO,MAAM,yBAAyB,mBAAoB,MAAM,WAI/D,CAAC"}

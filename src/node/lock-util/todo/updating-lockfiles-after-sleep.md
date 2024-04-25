@@ -1,0 +1,1 @@
+Edgecase: If your computer goes to sleep, how do we ensure that the locks aren't deleted immediately while the functions will continue after sleep? Preferably we should update the lockfiles immediately after system is active again. Not important though, worst case we are doing a double conversion.

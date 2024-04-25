@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 import { explore } from "./explore.js";
 const getArgument = (number) => {
     return process.argv[1 + number];

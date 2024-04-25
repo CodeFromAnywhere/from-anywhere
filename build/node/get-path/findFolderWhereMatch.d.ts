@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 /**
  * recursive. goes up a folder until it finds a package.json
  */

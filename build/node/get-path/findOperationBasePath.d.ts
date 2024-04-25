@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 import { OperationClassification } from "../../types/index.js";
 /**
  * recursive. goes up until it finds a folder that's an operation

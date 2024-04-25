@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 import fs from "node:fs";
 import path from "node:path";
 /**
@@ -24,9 +24,9 @@ matchFunction) => {
     }
     // Basecase to make sure that it doesn't go on infinitely, even if package.json doesn't exist anywhere
     if (fullSourcePath === "/") {
-        console.log(`folder was not found, went all the way to root '/'`, {
-            type: "debug",
-        });
+        // console.log(`folder was not found, went all the way to root '/'`, {
+        //   type: "debug",
+        // });
         return;
     }
     const matchResult = matchFunction(fullSourcePath);

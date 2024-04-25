@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 /// <reference types="node" resolution-mode="require"/>
 import { Path } from "../../types/markdown-types/index.js";
 import { PathLike } from "node:fs";

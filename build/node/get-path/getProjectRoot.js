@@ -18,9 +18,10 @@ const hasProjectRootFile = (absolutePath) => {
 export const getProjectRoot = (fullSourcePath) => {
     const matchFolder = findFolderWhereMatch(fullSourcePath || process.cwd(), hasProjectRootFile);
     if (!matchFolder) {
-        throw new Error("No .project-root file found", {
-            cause: "no-project-root",
-        });
+        // throw new Error("No .project-root file found", {
+        //   cause: "no-project-root",
+        // });
+        return "";
     }
     return matchFolder.folderPath;
 };

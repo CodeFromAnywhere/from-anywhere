@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 import { findFolderWhereMatch } from "./findFolderWhereMatch.js";
 import { getOperationClassification } from "./getOperationClassification.js";
 /**

@@ -40,8 +40,8 @@ export const fetchTextWithTimeout = async (
       ...init,
       signal: controller.signal,
     }).catch((err: any) => {
-      console.log({ err });
-      // console.log(Object.keys(err.cause));
+      // console.log({ err });
+      console.log(Object.keys(err.cause));
       return err.cause.code as string; // Error caused by fetch
     });
 

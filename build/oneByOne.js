@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 /**
  * for every item in an array, executes an async callback, one by one.
  * promises an array of the results of every callback once it's done

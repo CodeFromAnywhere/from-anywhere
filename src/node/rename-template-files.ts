@@ -1,5 +1,5 @@
-#!/usr/bin/env bun
-import { oneByOne } from "from-anywhere";
+#!/usr/bin/env node
+import { oneByOne } from "../oneByOne.js";
 import { explore } from "./explore/index.js";
 import fs from "node:fs/promises";
 /*

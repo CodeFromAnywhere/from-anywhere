@@ -1,1 +1,1 @@
-{"version":3,"file":"getIndexId.d.ts","sourceRoot":"","sources":["../../../src/node/get-path/getIndexId.ts"],"names":[],"mappings":"AAGA,OAAO,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC;AAExD,eAAO,MAAM,UAAU,aACX,MAAM,QACV,MAAM,KACX,QAAQ,gBAAgB,GAAG,SAAS,CA2BtC,CAAC"}
+{"version":3,"file":"getIndexId.d.ts","sourceRoot":"","sources":["../../../src/node/get-path/getIndexId.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC;AAGxD,eAAO,MAAM,UAAU,aACX,MAAM,QACV,MAAM,KACX,QAAQ,gBAAgB,GAAG,SAAS,CA2BtC,CAAC"}

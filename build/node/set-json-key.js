@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 import { fs } from "./fs-util/index.js";
 import { path } from "./fs-util/index.js";
 import { getFolder } from "./fs-util/index.js";
