@@ -6,7 +6,6 @@ export * from "./destructureOptionalObject.js";
 export * from "./oneByOne.js";
 export * from "./convert-case.js";
 export * from "./earthDistance.js";
-export * from "./fetchOpenapi.js";
 export * from "./fetchWithTimeout.js";
 export * from "./filename-conventions/index.js";
 export * from "./fs-util-js/index.js";

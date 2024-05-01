@@ -8,3 +8,4 @@ export * from "./set-json-key.js";
 export * from "./folderGetUpdatedAt.js";
 export * from "./edit-json-file/index.js";
 export * from "./lock-util/index.js";
+export * from "./writeToAssets.js";
