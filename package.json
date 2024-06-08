@@ -38,6 +38,6 @@
     "pub": "yarn up && npm publish",
     "css": "tailwindcss -o css.css"
   },
-  "version": "0.0.30",
+  "version": "0.0.31",
   "type": "module"
 }
