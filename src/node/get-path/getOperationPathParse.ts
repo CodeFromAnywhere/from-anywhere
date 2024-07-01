@@ -3,8 +3,6 @@ import { findOperationBasePath } from "./findOperationBasePath.js";
 import { getPathParse } from "./getPathParse.js";
 import { getOperationRelativePath } from "./getOperationRelativePath.js";
 import { Operation, OperationPathParse } from "../../types/index.js";
-import fsPromises from "node:fs/promises";
-import fs from "node:fs";
 import path from "node:path";
 import { getLastFolder } from "../fs-util/js.js";
 import { readJsonFileSync } from "../fs-util/readJsonFile.js";

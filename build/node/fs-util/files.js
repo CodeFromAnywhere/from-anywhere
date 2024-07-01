@@ -25,17 +25,21 @@ export const censor = (censor) => {
 /**
  * writes all values in an object to the file that should be specified as key of that value
  */
-export const writeToFiles = async (fileObject) => {
+export const writeToFiles = async (fileObject, isJson) => {
     let s = 0;
     let e = 0;
     const writePromises = Object.keys(fileObject).map(async (filePath) => {
         const value = fileObject[filePath];
-        const success = await writeJsonToFile(filePath, value);
-        if (success)
-            s++;
-        if (!success)
-            e++;
-        return success;
+        if (isJson) {
+            const success = await writeJsonToFile(filePath, value);
+            if (success)
+                s++;
+            if (!success)
+                e++;
+            return success;
+        }
+        await fs.writeFile(filePath, value, "utf8");
+        s++;
     });
     await Promise.all(writePromises);
 };

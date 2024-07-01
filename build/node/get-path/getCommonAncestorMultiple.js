@@ -1,6 +1,6 @@
 import path from "node:path";
-import fsPromises from "node:fs/promises";
 import fs from "node:fs";
+const fsPromises = fs.promises;
 import { getAllFoldersUntilFolder } from "../fs-util/index.js";
 export const getFolderPath = async (fileOrFolderPath) => {
     if (!fs.existsSync(fileOrFolderPath)) {

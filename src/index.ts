@@ -8,6 +8,7 @@ export * from "./convert-case.js";
 export * from "./earthDistance.js";
 export * from "./fetchWithTimeout.js";
 export * from "./filename-conventions/index.js";
+export * from "./pluralize.js";
 export * from "./fs-util-js/index.js";
 export * from "./findNextId.js";
 export * from "./general.js";

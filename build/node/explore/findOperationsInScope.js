@@ -1,7 +1,7 @@
 import { findAllPackages } from "./findAllPackages.js";
 import fs from "node:fs";
 import path from "node:path";
-import fsPromises from "node:fs/promises";
+const fsPromises = fs.promises;
 import { findFolderWhereMatch } from "../get-path/findFolderWhereMatch.js";
 import { readJsonFile } from "../fs-util/readJsonFile.js";
 /**

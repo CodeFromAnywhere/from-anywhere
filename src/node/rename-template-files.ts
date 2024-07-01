@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 import { oneByOne } from "../oneByOne.js";
 import { explore } from "./explore/index.js";
-import fs from "node:fs/promises";
+import fs from "node:fs";
+const fsPromises = fs.promises;
+
 /*
 As long as there are no .template files present in the template folder that DONT need to be changed, it is fine.
 If there are, we should warn people.
@@ -53,7 +55,7 @@ export const renameTemplateFiles = async (config: { appDir: string }) => {
 
   // console.log({ renameables });
   await oneByOne(renameables, async (oldNew) =>
-    fs.rename(oldNew.oldPath, oldNew.newPath),
+    fsPromises.rename(oldNew.oldPath, oldNew.newPath),
   );
 
   return;

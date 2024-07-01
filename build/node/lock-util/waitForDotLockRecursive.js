@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import fsPromises from "node:fs/promises";
+const fsPromises = fs.promises;
 import { writeStringToFile } from "../fs-util/files.js";
 export const maxQueryTimeMs = 10000;
 export const waitForDotLockRecursive = async (lockfilePath) => {

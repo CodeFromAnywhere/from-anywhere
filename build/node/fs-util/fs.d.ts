@@ -1,7 +1,13 @@
 /// <reference types="node" resolution-mode="require"/>
+/// <reference types="node" resolution-mode="require"/>
+/// <reference types="bun-types" resolution-mode="require"/>
 import gracefulFs from "node:fs";
 import { PathLike } from "node:fs";
 import { Dirent } from "node:fs";
+export interface CustomPromisifyLegacy<TCustom extends Function> extends Function {
+    __promisify__: TCustom;
+}
+export type CustomPromisify<TCustom extends Function> = CustomPromisifyLegacy<TCustom>;
 export type { PathLike, Dirent };
 /**
  * Implements a primitive cp for bun
@@ -27,6 +33,7 @@ export declare const fs: {
     readdirSync: typeof gracefulFs.readdirSync;
     writeFileSync: typeof gracefulFs.writeFileSync;
     createReadStream: typeof gracefulFs.createReadStream;
+    writeFile: typeof import("fs/promises").writeFile;
     constants: typeof gracefulFs.constants;
     lstat: typeof gracefulFs.lstat.__promisify__;
     readlink: typeof gracefulFs.readlink.__promisify__;
@@ -34,9 +41,7 @@ export declare const fs: {
     rename: typeof gracefulFs.rename.__promisify__;
     mkdir: typeof gracefulFs.mkdir.__promisify__;
     readFile: typeof gracefulFs.readFile.__promisify__;
-    writeFile: typeof gracefulFs.writeFile.__promisify__;
     access: typeof gracefulFs.access.__promisify__;
-    watch: (arg1: gracefulFs.PathLike) => Promise<string | null>;
     appendFile: typeof gracefulFs.appendFile.__promisify__;
     chmod: typeof gracefulFs.chmod.__promisify__;
     chown: typeof gracefulFs.chown.__promisify__;

@@ -1,7 +1,7 @@
 import { allowedSearchContentExtensions, extensions, fileTypes, generatedFolders, jsonExtensions, markdownExtensions, typescriptExtensions, } from "../../filename-conventions/index.js";
 import fs from "node:fs";
 import path from "node:path";
-import fsPromises from "node:fs/promises";
+const fsPromises = fs.promises;
 import { getExtension } from "../../fs-util-js/js.js";
 import { canRead, canSee } from "../fs-util/files.js";
 import { makeArray, notEmpty } from "../../general.js";

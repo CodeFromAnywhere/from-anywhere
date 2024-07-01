@@ -13,7 +13,7 @@ export declare const censor: (censor: any) => (key: any, value: any) => any;
  */
 export declare const writeToFiles: (fileObject: {
     [absoluteFilePath: string]: any;
-}) => Promise<void>;
+}, isJson?: boolean) => Promise<void>;
 /**
  * uses fs.access to determine if something can be accessed
  *

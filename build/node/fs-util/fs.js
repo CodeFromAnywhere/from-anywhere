@@ -1,7 +1,11 @@
 // Normal deps
 import gracefulFs from "node:fs";
-import { promisify } from "util";
+import nodeFs from "node:fs";
+import rawPromisify from "promisify-node";
 import { path } from "./path.js";
+const { promises } = nodeFs;
+const writeFile = promises.writeFile;
+const promisify = rawPromisify;
 // import { cpSync } from "graceful-fs";
 // Callbacks that need to be promisified
 // TODO: Provide doc-comments for these functions, as they have now been lost...
@@ -11,9 +15,9 @@ const readlink = promisify(gracefulFs.readlink);
 const symlink = promisify(gracefulFs.symlink);
 const mkdir = promisify(gracefulFs.mkdir);
 const readFile = promisify(gracefulFs.readFile);
-const writeFile = promisify(gracefulFs.writeFile);
+// const writeFile = promisify(gracefulFs.writeFile);
 const access = promisify(gracefulFs.access);
-const watch = promisify(gracefulFs.watch);
+// const watch = promisify(gracefulFs.watch);
 const appendFile = promisify(gracefulFs.appendFile);
 const chmod = promisify(gracefulFs.chmod);
 const chown = promisify(gracefulFs.chown);
@@ -49,9 +53,9 @@ const gracefulFsPromises = {
     rename,
     mkdir,
     readFile,
-    writeFile,
+    //writeFile,
     access,
-    watch,
+    // watch,
     appendFile,
     chmod,
     chown,
@@ -65,20 +69,20 @@ const gracefulFsConstants = {
     constants: gracefulFs.constants,
 };
 const fsPromises = {
-// rename,
-// stat,
-// access,
-// mkdir,
-// writeFile,
-// rm,
-// copyFile,
-// readdir,
-/**
- * cp from graceful doesn't copy folders for me for some reason
- *
- * NB: this is not graceful!
- */
-// cpAsync,
+    // rename,
+    // stat,
+    // access,
+    // mkdir,
+    writeFile,
+    // rm,
+    // copyFile,
+    // readdir,
+    /**
+     * cp from graceful doesn't copy folders for me for some reason
+     *
+     * NB: this is not graceful!
+     */
+    // cpAsync,
 };
 // const fixedReadFile = (...params: Parameters<typeof readFile>) => {
 //   if (params[1] === "utf8") {

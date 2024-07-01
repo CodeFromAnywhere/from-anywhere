@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import fsPromises from "node:fs/promises";
+const fsPromises = fs.promises;
 import { readJsonFileSync } from "../fs-util/readJsonFile.js";
 import { getActionStatusFilePath } from "./getActionStatusFilePath.js";
 export const isLocked = (absolutePath) => {

@@ -1,10 +1,33 @@
 // Normal deps
 import gracefulFs from "node:fs";
+import nodeFs from "node:fs";
+
 import { PathLike } from "node:fs";
 import { Dirent } from "node:fs";
-import { promisify } from "util";
+import rawPromisify from "promisify-node";
 import { path } from "./path.js";
 
+const { promises } = nodeFs;
+const writeFile = promises.writeFile;
+
+//import {promisify} from "util"
+
+//const custom: unique symbol;
+
+export interface CustomPromisifyLegacy<TCustom extends Function>
+  extends Function {
+  __promisify__: TCustom;
+}
+// export interface CustomPromisifySymbol<TCustom extends Function> extends Function {
+//   [custom]: TCustom;
+// }
+export type CustomPromisify<TCustom extends Function> =
+  //| CustomPromisifySymbol<TCustom>
+  CustomPromisifyLegacy<TCustom>;
+
+const promisify = rawPromisify as <TCustom extends Function>(
+  fn: CustomPromisify<TCustom>,
+) => TCustom;
 // import { cpSync } from "graceful-fs";
 
 // Callbacks that need to be promisified
@@ -16,9 +39,9 @@ const readlink = promisify(gracefulFs.readlink);
 const symlink = promisify(gracefulFs.symlink);
 const mkdir = promisify(gracefulFs.mkdir);
 const readFile = promisify(gracefulFs.readFile);
-const writeFile = promisify(gracefulFs.writeFile);
+// const writeFile = promisify(gracefulFs.writeFile);
 const access = promisify(gracefulFs.access);
-const watch = promisify(gracefulFs.watch);
+// const watch = promisify(gracefulFs.watch);
 const appendFile = promisify(gracefulFs.appendFile);
 const chmod = promisify(gracefulFs.chmod);
 const chown = promisify(gracefulFs.chown);
@@ -58,9 +81,9 @@ const gracefulFsPromises = {
   rename,
   mkdir,
   readFile,
-  writeFile,
+  //writeFile,
   access,
-  watch,
+  // watch,
   appendFile,
   chmod,
   chown,
@@ -80,7 +103,7 @@ const fsPromises = {
   // stat,
   // access,
   // mkdir,
-  // writeFile,
+  writeFile,
   // rm,
   // copyFile,
   // readdir,

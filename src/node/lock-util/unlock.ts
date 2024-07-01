@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import fsPromises from "node:fs/promises";
+const fsPromises = fs.promises;
 import { getActionStatusFilePath } from "./getActionStatusFilePath.js";
 /**
  * Removes lockfile based on the filepath of the file that shoul've been locked

@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import fsPromises from "node:fs/promises";
+const fsPromises = fs.promises;
 import { ActionStatus } from "../../filename-conventions/ActionStatus.js";
 import { readJsonFileSync } from "../fs-util/readJsonFile.js";
 import { lockfileSuffix } from "./constants.js";

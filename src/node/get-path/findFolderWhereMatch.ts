@@ -19,7 +19,7 @@ export const findFolderWhereMatch = <T>(
     process.exit(1);
   }
   // Basecase to make sure that the provided sourcepath is valid
-  if (!fs.existsSync(fullSourcePath)) {
+  if (typeof fs.existsSync === "undefined" || !fs.existsSync(fullSourcePath)) {
     console.log(`full source path invalid ${fullSourcePath}`, {
       type: "debug",
     });

@@ -12,7 +12,7 @@ import {
 } from "../../filename-conventions/index.js";
 import fs from "node:fs";
 import path from "node:path";
-import fsPromises from "node:fs/promises";
+const fsPromises = fs.promises;
 import { getExtension } from "../../fs-util-js/js.js";
 import { MarkdownParse, TextJson } from "../../types/index.js";
 import { canRead, canSee } from "../fs-util/files.js";
